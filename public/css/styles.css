@@ -1,0 +1,108 @@
+body {
+    color: #ffffff ;
+    font-family: 'cooper black';
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+h2{
+    color: #cfdaeb ;
+    font-family: 'Century Gothic';
+    font-size: smaller;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h3{
+    color: #cfdaeb ;
+    font-family: 'Century Gothic';
+    font-size: smaller;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+h4{
+    color: #cfdaeb ;
+    font-family: 'Century Gothic';
+    font-size: smaller;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+h5{
+    color: #cfdaeb ;
+    font-family: 'Century Gothic';
+    font-size: smaller;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+.main-content{
+    flex-grow: 1;
+}
+
+footer {
+
+color: rgb(13, 22, 37);
+border-top: 1px solid rgba(0, 0, 0, 0.067);
+margin-top: 16px;
+padding: 16px;font-size: smaller;
+margin-bottom: 48px;
+
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+h1 {
+    font-size: 65px ;
+    margin-bottom: 15px;
+}
+
+header a {
+color: rgba(0, 0, 0, 0.467);
+margin-right: 16px;
+text-decoration: none;
+}
+.portrait {
+    width: 250px;
+}
+input{
+    border: 1px solid #000000;
+    padding: 8px;
+}
+button{
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.533);
+    background: rgb(235, 235, 250);
+    color: rgb(0, 0, 0);
+    padding: 8px;
+}
+body{
+    background-image: linear-gradient(rgba(79, 92, 82, 0.281), rgba(4, 9, 30, 0.7)),url(/img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+ }
+ .today {
+    position: relative;
+    width: 350px;
+    top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+/* div {
+background-image: url(../img/clooo.jpg);
+color: #ffff;
+height:400px;
+width: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+} */
